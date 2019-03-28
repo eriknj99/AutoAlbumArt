@@ -10,7 +10,7 @@ A simple python script for applying album artwork to mp3 files.
 
 #Example
 ```
-Music direcotry 
+Music directory 
 
 ~
 └── Music
