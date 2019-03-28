@@ -9,7 +9,7 @@ A simple python script for applying album artwork to mp3 files.
 - The script will search for any album art in scan directory and apply it to any adjacent mp3 files
 
 #Example
-
+```
 Music direcotry 
 
 ~
@@ -26,13 +26,13 @@ Music direcotry
         ├── 3.mp3
         ├── 4.mp3
         └── cover.jpg
-
-To allpy album art run:
-
+```
+To apply album art to all mp3s in ~/Music run:
+```
   python setAlbumArt.py
     Enter scan directory: ~/Muisc/
     Enter image keys as CSV: cover.png,cover.jpg
-    
+```
 Album artwork will be applied to all .mp3 files in the Music directory.
 
 #Dependencies  
