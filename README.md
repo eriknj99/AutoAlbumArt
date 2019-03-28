@@ -2,13 +2,13 @@
 
 A simple python script for applying album artwork to mp3 files.
 
-#Usage
+# Usage
 - Run with "python setAlbumArt.py"
 - Enter a scan directory. All subdirectories of the san directory will be searched recursively.
 - Enter image keys as CSV. Enter all album art names separated by commas. 
 - The script will search for any album art in scan directory and apply it to any adjacent mp3 files
 
-#Example
+# Example
 ```
 Music directory 
 
@@ -35,7 +35,7 @@ To apply album art to all mp3s in ~/Music run:
 ```
 Album artwork will be applied to all .mp3 files in the Music directory.
 
-#Dependencies  
+# Dependencies  
 - eyed3
 - csv
 - os
